@@ -22,6 +22,12 @@ function mudarConteudo(){
     contentDiv.appendChild(paragrafo)
 
 
+function modificarCor(){
+    let linkcor= document.getElementById("myLink")
+    linkcor.style.color = "red"
+}
+
+
 }
 
 function adicionarBloco(){
